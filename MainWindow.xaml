@@ -1,0 +1,22 @@
+﻿<Window x:Class="japanese_dict.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:japanese_dict"
+        mc:Ignorable="d"
+        Title="Let's Learn Japanese" Height="450" Width="752">
+    <Grid x:Name="Let_s_Learn_Japanese_" Margin="0,0,25,0">
+        <Button Content="Translate" HorizontalAlignment="Left" Margin="42,332,0,0" VerticalAlignment="Top" Height="50" Width="197" Click="Button_Click"/>
+        <Label x:Name="engWord" Content="" HorizontalAlignment="Left" Height="82" Margin="261,36,0,0" VerticalAlignment="Top" Width="463" RenderTransformOrigin="0.501,0.528" FontSize="18"/>
+        <ListBox x:Name="wordBox" HorizontalAlignment="Left" Height="280" Margin="42,36,0,0" VerticalAlignment="Top" Width="197" FontSize="16">
+            <ListBoxItem Content="hello"/>
+            <ListBoxItem Content="thank you for the meal"/>
+            <ListBoxItem Content="good morning"/>
+            <ListBoxItem Content="good evening"/>
+            <ListBoxItem Content="good night"/>
+            <ListBoxItem Content="goodbye"/>
+        </ListBox>
+
+    </Grid>
+</Window>
